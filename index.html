@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="icon" href="./img/Pokeball.png">
+</head>
+<body>
+    <form action="" onsubmit="searchPokemon(event)">
+        <input type="text" name="pokemon" placeholder="SEARCH" autocomplete="off">
+        <img src="./img/Pokeball.png" alt="" class="img1">
+    </form>
+    <div class="poke-card">
+        <div class="poke">Pokedex</div>
+        <div class="img-container">
+            <img class="poke-img" src="./img/poke-shadow.png"
+        </div>
+        <div class="poke-id"></div>
+        <div class="poke-types"></div>
+        <div class="poke-stats"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
